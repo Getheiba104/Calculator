@@ -4,6 +4,7 @@ A responsive, beginner-friendly calculator built using HTML, CSS, and JavaScript
 
 Live Demo
 https://https://getheiba104.github.io/Calculator//calculator/
+
 Technologies Used
 - HTML5
 - CSS3 (Grid & Flexbox)
