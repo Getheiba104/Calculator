@@ -2,7 +2,7 @@ Calculator App
 
 A responsive, beginner-friendly calculator built using HTML, CSS, and JavaScript.
 
-Live Demo
+**Live Demo**
 https://https://getheiba104.github.io/Calculator//calculator/
 
 Technologies Used
