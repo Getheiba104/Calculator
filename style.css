@@ -1,0 +1,99 @@
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: #1f2933;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+
+}
+
+.calculator {
+  background: #222;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  max-width: 360px;
+}
+
+#display {
+  width: 100%;
+  height: 45px;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  text-align: right;
+  padding:5px 15px;   /* equal left/right spacing */
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: white;
+  background: #111;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Numbers & dot */
+button {
+  height: 60px;
+  font-size: 1.2rem ;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #444;
+  color: white;
+   aspect-ratio: 1 / 1;
+}
+
+button:hover {
+  background: #555;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Operators */
+.operator {
+  background: #ff9500;
+  color: black;
+}
+
+.operator:hover {
+  background: #ffb84d;
+}
+
+/* Equal button */
+.equal {
+  background: #0a84ff;
+  color: white;
+}
+
+.equal:hover {
+  background: #3399ff;
+}
+
+/* AC / % buttons */
+.action {
+  background: #888;
+  color: black;
+}
+
+.action:hover {
+  background: #aaa;
+}
+
+/* Zero button spans 2 columns */
+.zero, .span-2 {
+  grid-column: span 2;
+}
+@media (max-width: 480px) {
+  .calculator {
+    max-width: 100%;
+    border-radius: 0;
+  }
+}
