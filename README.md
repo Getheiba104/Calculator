@@ -41,6 +41,7 @@ Supported Devices:
 - Laptops and desktops
 
 Author
+
 Kamanda Peter  Getheiba 
 
 Self-taught Frontend Developer
