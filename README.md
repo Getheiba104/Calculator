@@ -40,9 +40,8 @@ Supported Devices:
 - Tablets
 - Laptops and desktops
 
-Project Structure
-
 Author
 Kamanda Peter  Getheiba 
+
 Self-taught Frontend Developer
 
